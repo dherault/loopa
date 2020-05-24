@@ -19,7 +19,7 @@ a loop
 `loopa 10 npm run some-script`
 
 ```
-(some-scripts executed 10 times)
+(some-script executed 10 times)
 ```
 
 ## Usage with environment variables
