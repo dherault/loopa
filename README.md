@@ -24,9 +24,9 @@ a loop
 
 ## Usage with environment variables
 
-Environment varaibles should be escaped:
+Environment variables should be escaped:
 
-`FOO=foo loopa 100 \$FOO`
+`FOO=foo loopa 100 echo \$FOO`
 
 ```
 foo
@@ -40,7 +40,7 @@ If you do not like escaping your environment variables you can do the following 
 ```json
 {
   "scripts": {
-    "loop": "loopa 12 npm run echo-foo",
+    "loop": "loopa 100 npm run echo-foo",
     "echo-foo": "FOO=foo echo $FOO"
   }
 }
@@ -48,7 +48,7 @@ If you do not like escaping your environment variables you can do the following 
 
 ## Accessing the iteration variable
 
-The iteration varaible is available under the `$I` (or `\$I`) env variable:
+The iteration variable is available under the `$I` (or `\$I`) env variable:
 
 `loopa 4 echo \$I`
 
