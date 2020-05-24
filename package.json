@@ -1,0 +1,29 @@
+{
+  "name": "loopa",
+  "version": "1.0.0",
+  "description": "A loop for npm scripts",
+  "main": "index.js",
+  "bin": {
+    "loopa": "./cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "foo": "FOO=foo echo \"$FOO $I\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dherault/loopa.git"
+  },
+  "keywords": [
+    "loop",
+    "for",
+    "script",
+    "scripts"
+  ],
+  "author": "David Hérault <dherault@gmail.com> (https://github.com/dherault)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dherault/loopa/issues"
+  },
+  "homepage": "https://github.com/dherault/loopa#readme"
+}
