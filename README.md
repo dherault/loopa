@@ -1,5 +1,15 @@
 # loopa
 
+<p>
+  <a href="https://www.npmjs.com/package/loopa">
+    <img src="https://img.shields.io/npm/v/loopa.svg?style=flat-square">
+  </a>
+  <img src="https://img.shields.io/npm/l/loopa.svg?style=flat-square">
+  <a href="#contributing">
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square">
+  </a>
+</p>
+
 Loopa is a for loop for scripts. It will execute a command n times before exiting.
 
 ## Installation
