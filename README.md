@@ -22,6 +22,15 @@ a loop
 (some-script executed 10 times)
 ```
 
+`loopa infinity echo "an infinite loop"`
+
+```
+an infinite loop
+an infinite loop
+an infinite loop
+...
+```
+
 ## Usage with environment variables
 
 Environment variables should be escaped:

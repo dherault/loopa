@@ -4,7 +4,7 @@ const { execSync } = require('child_process')
 const [,, ...args] = process.argv
 const firstArg = args.shift()
 const command = args.join(' ')
-const nTimes = parseInt(firstArg)
+const nTimes = firstArg === 'infinity' ? Number.MAX_SAFE_INTEGER : parseInt(firstArg)
 
 if (nTimes !== nTimes) {
   console.error(`First arg must be an integer, found "${firstArg}" instead.`)

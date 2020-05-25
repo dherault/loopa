@@ -1,6 +1,6 @@
 {
   "name": "loopa",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "A loop for npm scripts",
   "main": "index.js",
   "bin": {
