@@ -38,7 +38,11 @@ function execCommand() {
         I: i,
       }, process.env)
     })
-
+  }
+  catch (error) {
+    // nothing
+  }
+  finally {
     if (delay !== 0) {
       if (i === nTimes) return
 
@@ -47,8 +51,5 @@ function execCommand() {
     else {
       execCommand()
     }
-  }
-  catch (error) {
-    // nothing
   }
 }
