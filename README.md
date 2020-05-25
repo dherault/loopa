@@ -31,6 +31,15 @@ an infinite loop
 ...
 ```
 
+`loopa 3 1000 echo "one second interval"`
+
+```
+one second interval
+one second interval
+one second interval
+```
+
+
 ## Usage with environment variables
 
 Environment variables should be escaped:
