@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "foo": "FOO=foo echo \"$FOO $I\""
+    "foo": "FOO=foo echo \"$FOO $I\"",
+    "lint": "eslint cli.js"
   },
   "repository": {
     "type": "git",
@@ -25,5 +26,9 @@
   "bugs": {
     "url": "https://github.com/dherault/loopa/issues"
   },
-  "homepage": "https://github.com/dherault/loopa#readme"
+  "homepage": "https://github.com/dherault/loopa#readme",
+  "devDependencies": {
+    "eslint": "^8.46.0",
+    "eslint-config-dherault": "^1.11.2"
+  }
 }

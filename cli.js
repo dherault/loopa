@@ -34,9 +34,8 @@ function execCommand() {
     execSync(command, {
       stdio: 'inherit',
       shell: true,
-      env: Object.assign({
-        I: i,
-      }, process.env)
+      // eslint-disable-next-line prefer-object-spread
+      env: Object.assign({ I: i }, process.env),
     })
   }
   catch (error) {
@@ -44,6 +43,7 @@ function execCommand() {
   }
   finally {
     if (delay !== 0) {
+      // eslint-disable-next-line no-unsafe-finally
       if (i === nTimes) return
 
       setTimeout(execCommand, delay)
